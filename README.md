@@ -16,7 +16,7 @@ Run the following from the heroku command line:
 heroku buildpacks:add --index 1 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
 ```
 
-You can set a custom download URL by setting the variable `FFMPEG_DOWNLOAD_URL`.
+You can set a custom download URL by setting the variable `FFMPEG_DOWNLOAD_URL`.https://github.com/aswin9645108864/heroku-buildpack-ffmpeg-latest
 
 Note: This buildpack should be added before the main language buildpack (by using `--index 1`),
 since the application process types are calculated from the last buildpack in the list if no
